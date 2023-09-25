@@ -1,6 +1,6 @@
 html{
-    background-image: url(img\html-bg.jpg);
-    font-family:Arial, Helvetica, sans-serif
+    background-image: url(../img/spfcfundo.png);
+    font-family:'Segoe UI', Tahoma;
 }
 .container{
     background-color: rgb(255, 255, 255);
@@ -8,13 +8,15 @@ html{
     margin: 40px auto;
     max-width: 1100px;
     position: relative;
+    font-size: 18px;
 }
 
 .p-title{
     font-weight: bold;
+    font-size: 23px;
 }
 figure{
-    text-align: center;
+   text-align: center;
 }
 .redspfc{
     font-weight: bold;
@@ -30,6 +32,31 @@ figure{
 .quote-container blockquote {
     font-weight: 700;
 }
-.quote-container p{
+.quote-container p, .header{
     text-align: center;
+}
+.txt1943, .imagem-1943{
+    display: inline-block;
+    vertical-align: auto;
+    width: 40%;
+    margin-right: 5%;
+}
+.quote-container p{
+    font-style: oblique;
+    font-weight:300;
+}
+.title{
+    font-size: 50px;
+}
+.subtitle{
+    font-weight: lighter;
+    font-style: italic;
+    font-size: 20px;
+}
+figcaption{
+    font-size: 16px;
+    font-style: italic;
+}
+.second-title{
+    font-size:30px;
 }
